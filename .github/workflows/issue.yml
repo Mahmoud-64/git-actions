@@ -1,0 +1,9 @@
+name: issue-workflow
+on: issues
+jobs:
+  echo-event-details:
+    runs-on: ubuntu-latest
+    steps:
+      - name: event-details
+        uses: echo  ${{ github.event.issue }}
+                        
