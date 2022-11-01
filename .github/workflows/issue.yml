@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: event-details
-        uses: echo  ${{ github.event.issue }}
+        run: echo  ${{ github.event.issue }}
                         
