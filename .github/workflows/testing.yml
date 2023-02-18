@@ -1,5 +1,5 @@
 name: testing
-on: [push, workflow_dispatch]
+on: [push, workflow_dispatch, workflow_call]
 jobs:
   test-lint-build:
     runs-on: ubuntu-latest
